@@ -13,10 +13,9 @@
  
 /*
  *Revision log:
- *t
  *Created by QuPanpan,2014/09/08
  *
-*/
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -46,7 +45,7 @@ main()
     while(1)
     {
         char cmd[CMD_MAX_LEN];
-        printf("Input a cmd word-> ");
+        printf("Input a cmd word->");
         scanf("%s",cmd);
         tDataNode *p=head;
         while(p!=NULL)
@@ -71,7 +70,6 @@ main()
 
 int Help()
 {
-
     printf("Menu list:\n");
     tDataNode *p=head;
     while(p!=NULL)
